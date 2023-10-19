@@ -1,0 +1,1274 @@
+Text
+"Ministry: Banking 
+
+Chat 1:
+User: Hi, I am having a problem with my bank transaction. 
+
+Bot: I'm sorry to hear that you're experiencing issues with your bank transaction. Can you please tell me which department should your complaint be directed to? 
+
+{Ministry: Banking}
+
+User: It relates to an issue with my ATM card. 
+
+Bot: I see. So, we are going to report this in the Credit/Debit/ATM Cards section. Can you tell me more about the issue, please? 
+
+{Ministry: Banking -> Credit/Debit/ATM Cards Related}
+
+User: Yeah, on December 31st, I tried to withdraw 10000 rs from an ATM, but I didn't get the money. However, I got a message on my phone saying that my account has been debited with the amount.
+
+Bot: I understand. It appears we have encountered delay or non-reversal of a failed transaction. To ensure we have the right department looking into this, I will need to gather more details about this issue. 
+
+{Ministry: Banking -> Credit/Debit/ATM Cards Related -> Delay/Non-reversal of failed transactions}
+
+Bot: Could you please confirm the exact name of your bank and the branch where the incident occurred?
+
+User: The bank is Union Bank of India and the ATM I used is in Rajajipuram A Block.
+
+Bot: Great, thank you for that information.
+
+{Bank: Union Bank of India, Branch: Rajajipuram A Block}
+
+Bot: For documentation purposes, could you please provide me with your account number and the exact date and time of the transaction?
+
+User: My account number is *430. The transaction happened on 31st December 2022 at 4:23 pm.
+
+Bot: Noted, thank you.
+
+{Account Number: *430, Date of Transaction: 31-12-2022, Time: 16:23:02}
+
+Bot: Lastly, can you please confirm the place of transaction? I assume it's at Union Bank of India Rajajipuram A Block ATM.
+
+User: Yes, that's right.
+
+{Place of Transaction: Union Bank of India Rajajipuram A Block ATM}
+
+Bot: Thank you for providing all the details. Here's a summary of your complaint:
+
+""I visited Union Bank of India Rajajipuram A Block ATM on 31-12-22 and tried to take out 10000-00 rs using my debit card. The ATM failed to dispense the money but I received a message on my mobile that my A/c *430 was debited. The transaction ID description is 6083329730234739/000000004386/2438120100. Kindly look into the matter as soon as possible.""
+
+Here's the mandatory field data:
+
+1. Bank: Union Bank of India
+2. Branch: Rajajipuram A Block
+3. Account Number: *430
+4. Date of Transaction: 31-12-2022
+5. Place of Transaction: Union Bank of India Rajajipuram A Block ATM
+
+Please confirm if this information is correct or if there are any changes required."
+"Ministries: Central Board of Direct Taxes (Income Tax) 
+
+Chat 1:
+User: Hi, I am Smt Banu Krishnamurthy Dixit. I have a serious issue regarding a malpractice involving an improper transfer of a property belonging to my son, VinayKDixit in Davanagere City. 
+
+Bot: I'm really sorry to hear about this situation, Smt Banu Krishnamurthy Dixit. To provide you with precise help, kindly tell me under which ministry your issue falls under? [Flow of Ministries: NA]
+
+User: I am not sure but I think it has something to do with taxes.
+
+Bot: I understand. Based on your statement, I believe this may fall under the ministry 'Central Board of Direct Taxes (Income Tax)'. Is that correct? [Flow of Ministries: Central Board of Direct Taxes (Income Tax)]
+
+User: Yes, that's correct.
+
+Bot: Great! Can you please inform me what particular aspect of 'Central Board of Direct Taxes (Income Tax)' does your issue relate to? [Flow of Ministries: Central Board of Direct Taxes (Income Tax)]
+
+User: It's related to direct taxes. 
+
+Bot: Thank you for sharing that. It seems your concern is best dealt with by the 'Direct Taxes' sub-ministry under 'Central Board of Direct Taxes (Income Tax)'. Is my understanding correct? [Flow of Ministries: Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: Yes, you're right. 
+
+Bot: What specific issue do you have under the 'Direct Taxes' sub-ministry? [Flow of Ministries: Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: The issue is about Benami Transactions. 
+
+Bot: Got it. This involves the sub-ministry 'Information about Benami Transaction' under 'Direct Taxes'. Am I correct? [Flow of Ministries: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: Yes, perfect. 
+
+Bot: Excellent. Now that we have identified the right ministry to help you, let's gather some mandatory information. Could you please tell me which regional or office location is your query related to? [Flow of Ministries: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: It's related to the office at the Davanagere Sub Registrar Office.
+
+Bot: Thank you for the clear communication. Let me summarize the complaint. The complaint is against 'Sri Gururaja Seva Sanga', Trustees of the registered Trust No.34/2020-21, who are trying to illegally annex your son's property located in Davanagere City. This property potentially involves Benami transactions attracting offences under the IPC and Benami Prevention & Prohibition Act 2016 and potentially involves money laundering under the PMLACT 2002. The mandatory field data collected is: Regional office / Office - Davanagere Sub Registrar Office.
+Is this information correct or do you wish to make any changes to this? [Flow of Ministries: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+Chat 2:
+User: Hi, I'd like to register a complaint.
+
+Bot: [Central Board of Direct Taxes (Income Tax)] Sure, I'd be happy to assist you with that. Could you please tell me if this issue is related to the domain of our taxation services?
+
+User: Yeah, it involves tax services. It's against a person who is evading taxes.
+
+Bot: [Central Board of Direct Taxes (Income Tax) -> Direct Taxes] I see. That would come under our Direct Taxes division. Can you please explain a bit more about the case? 
+
+User: This is about someone named Tejbir. He has been fraudulently misusing public funds and evading a huge tax income. Also, he is involved in illegal property construction in Mundka, Delhi.
+
+Bot: [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction] I understand you are lodging a complaint against Tejbir for fraudulent use of funds, tax evasion, and illegal property construction, which might involve Benami transactions. Please confirm if my understanding is correct?
+
+User: Yes, that's absolutely correct.
+
+Bot: Thank you for confirming. Now, for us to process your complaint efficiently we need some other important information as well. Do you know which regional office this complaint would pertain to?
+
+User: I guess it should go to the Delhi office given that's where all this is happening.
+
+Bot: Thank you, that's noted. And we already have the date from the complaint which is 04.01.2023. What would you want us to write in the subject line of your complaint?
+
+User: Title it as ""Request for investigation against Tejbir for fraudulent activities and tax evasion"".
+
+Bot: Alright, ""Request for investigation against Tejbir for fraudulent activities and tax evasion"". Can you provide your specific details to be included in the complaint?
+
+User: Sure. I'm Savitri Devi, the wife of Late Sh. Sudesh Kumar. We reside at H. No. B-30, Extn.-1, Block-A, Nangloi, New Delhi-110041. 
+
+Bot: Got it, Savitri Devi. Thank you for providing the required details. Based on our conversation, here's the summary - The complaint is about Tejbir's fraudulent misuse of public funds, tax evasion, and illegal property construction, reported to the Delhi office of the Central Board of Direct Taxes under Direct Taxes division and Information About Benami Transaction sub-division, on the date 04.01.2023. 
+
+The mandatory fields as provided by you are:
+1. Regional office / Office: Delhi
+2. Date: 04.01.2023
+3. Sub: Request for investigation against Tejbir for fraudulent activities and tax evasion
+4. Detailed Complaint: This is to inform you that I am Savitri Devi W/o. Late Sh. Sudesh Kumar R/o. H. No. B-30, Extn.-1, Block-A, Nangloi, New Delhi-110041. IT IS HUMBLY REQUESTED TO PLEASE LOOK INTO THE MATTER AS TEJBIR, PAN
+
+Please confirm if all these details are correct?
+
+Chat 3:
+**User**: Hi, I would like to register a complaint against certain companies who seem to be deliberately reducing the value of their invoices for illegal purposes.
+
+**Bot**: I understand your concern and I am here to help you register the complaint. Let's start by narrowing down the specific ministry. By any chance, are the complaints related to tax issues? [Ministry: Central Board of Direct Taxes]
+
+**User**: Yes, you're right. 
+
+**Bot**: Great, thanks for confirming. Would you say this issue relates more with Income Tax or any other specific type of Direct Taxes? [Ministry: Central Board of Direct Taxes -> Direct Taxes]
+
+**User**: This is more related to Income Tax.
+
+**Bot**: Noted. Now, tell me more about the nature of the illegal activity. Are these companies dealing in any kind of benami transactions? [Ministry: Central Board of Direct Taxes -> Direct Taxes -> Information about Benami Transaction]
+
+**User**: Yes, precisely. They are doing most of their business in cash or undervalued transaction. By undervaluing the goods, most of taxes collected by their customers are not deposited to the exchequer. For cash transactions they are neither paying GST nor Income tax.
+
+**Bot**: I see, thank you for sharing this information. This indeed sounds serious. Now, please help me with the details of the regional office or office where these transactions are taking place. [Ministry: Central Board of Direct Taxes -> Direct Taxes -> Information about Benami Transaction]
+
+**User**: All the companies are situated at Kishangarh, Ajmer, Rajsthan.
+
+**Bot**: Thank you for providing these details. 
+
+So, here is the summary of your complaint : M/s. Shree Krishna Marble and Granite (GSTIN-08LZSPS0401H1ZY), M/s. Stone Art (GSTIN-08BTYPJ7612P1ZN) and transporter M/s. Golden Transport Company (GSTIN-08ARDPM0159Q1ZC) all are engaged in money laundering and doing most of the business in cash or undervalued transaction. All the company are raising invoices after reducing 60%-70% of the actual value of goods or services sold by them, evading taxes.
+
+The ministry involved is [Ministry: Central Board of Direct Taxes -> Direct Taxes -> Information about Benami Transaction] and the Regional office / Office in question is located at Kishangarh, Ajmer, Rajsthan. 
+
+Can you please verify if the information is correct or it needs any changes?
+
+Chat 4:
+User: Hi, I seem to be having some issues with my tax payments and I think there might be some wrongdoing involved.
+
+Bot: I'm sorry to hear that you're facing some issues. To help address this, could you please provide more information for me to understand better? Let's start from the department that this issue falls under.
+
+User: It falls under the Income Tax Department of India.
+
+Bot: Alright. [Central Board of Direct Taxes (Income Tax)] Could you please explain more about the particular issue you're facing? 
+
+User: Well, each month my employer, Kolkata Municipal Corporation, deducts TDS from my salary, but they're not depositing it in the Income Tax Department.
+
+Bot: I see, this sounds concerning. [Central Board of Direct Taxes (Income Tax) -> Direct Taxes] If I understand correctly, you suspect that your TDS deductions are not being deposited correctly by your employer. 
+
+User: Yes, that's correct. And because of this, I've been unable to submit my Income Tax Return.
+
+Bot: I see how that could be quite distressing. In order to continue, May I know the name of the office or the regional office this matter pertains to?
+
+User: The office in question here would be Kolkata Municipal Corporation Ward No - 029.
+
+Bot: Noted. So the issue is with the Kolkata Municipal Corporation Ward No - 029 not depositing TDS deductions into Income Tax Department, which is making it hard for you to file your Income Tax Return. [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction] Is there anything else you would like to add? For example, have you made any complaints about this matter locally?
+
+User: Yes, I complained many times to the Mayor of Kolkata municipal Corporation and the Chief Minister of West Bengal but nothing has been done so far. And now I feel threatened by the Kolkata Police. 
+
+Bot: I'm genuinely sorry for the distress this may have caused you. Let me summarize the complaint for your verification: Mrs. Sonali Mukherjee, employed at Kolkata Municipal Corporation Ward No - 029, has noticed that her TDS deductions are not being deposited. She's unable to submit her Income Tax Return due to this. Despite lodging complaints with local authorities, there has been no solution and she feels threatened. Is this correct?
+
+User: Yes, that's correct.
+
+Bot: Thank you for confirming. Here is what we have for the fields:
+1. Regional office / Office: Kolkata Municipal Corporation Ward No - 029 
+   
+Will gather the rest of the details and update the status. Could you please confirm if the details are correct or if there are any changes to be made?
+
+User: No, that looks correct. Thank you.
+
+Chat 5:
+User: Hi, I have an issue that I'm hoping you can help me with.
+ 
+Bot: Of course! I'm here to help you. Could you please provide me with more details about your issue?
+
+User: Yes, it's related to an economic offense. It's rather complex and involves a property in Kolkata which is being illegally occupied by some persons.
+
+Bot: I see. That sounds like a serious issue. May I know if this issue is concerning 'Income Tax' or any 'Direct Taxes' related matter?
+
+User: Yes, it's related to Direct Taxes.
+
+Bot: I understand. This seems to be an issue that falls under the 'Direct Taxes' department. [Central Board of Direct Taxes (Income Tax) -> Direct Taxes]. Do you want to register a complaint about some kind of illegal transaction related to this property?
+
+User: Yes exactly! It seems like a Benami transaction issue.
+
+Bot: I understand, so this complaint is about a Benami transaction. [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]. Now to proceed further, could you please provide me the address of the regional office?
+
+User: Sure, the office is in Kolkata.
+
+Bot: Great! So the 'Regional office / Office' is in Kolkata. Now, may I have the address of the property in question?
+
+User: Yes, it's PREMISE 13A/27 ARIFF ROAD, SHIVA APARTMENT, Kolkata.
+
+Bot: Perfect! So, 'HE DOES NOT OWN ANY PROPERTY @ PREMISE 13A/27 ARIFF ROAD, SHIVA APARTMENT, KOLKATA'. Could you tell me about the person involved in this issue? Any specific identification like PAN or Aadhaar number would be helpful.
+
+User: Yeah, the person involved is Uttam Kumar Kundu and his PAN is AFYPK1781M.
+
+Bot: Thank you for the details. We have the information that 'Uttam Kumar Kundu (PAN:AFYPK1781M)' is involved in this issue. 
+
+Here is the final summary of the complaint:
+The complaint is about an economic offence involving a property that is being illegally occupied. This issue is related to 'Direct Taxes' and it concerns a 'Benami Transaction'. This property is located in 'Kolkata'. The person involved here is 'Uttam Kumar Kundu' with PAN 'AFYPK1781M'.
+
+And here are the mandatory fields captured:
+1. Regional office / Office: Kolkata
+2. HE DOES NOT OWN ANY PROPERTY @ PREMISE 13A/27 ARIFF ROAD, SHIVA APARTMENT, KOLKATA
+3. Uttam Kumar Kundu (PAN:AFYPK1781M)
+
+Can you please verify if this information is correct?
+
+User: Yes, this is all accurate. Thank you for your help!
+
+Bot: You're welcome! If you have any other issues or need further assistance, feel free to ask.
+
+Chat 6:
+User: Hi there, I've been having issues with property registration at sub-registrar office 575 using the tnreginet.gov.in portal. The sub-registrar has been conducting money transfers very sneakily without the knowledge of RBI. Would you be able to help?
+
+Bot: I'm sorry to hear about this. I'm here to assist you. Could you tell me more about the problem you're facing during this registration process? [Central Board of Direct Taxes (Income Tax)]
+
+User: The sub-registrar and both the buyer and seller have come together to transfer the money without the knowledge of the RBI as if it's a banking service done in the Affidavit alone. These deeds are written recorded but there's been no link made from the TNREGINET website to RBI, IT Pan website, or Aadhar until now.
+
+Bot: I see, that's quite a serious issue. So, you're saying that the sub-registrar is conducting the money transactions without being under the control of RBI, right? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: Yes, exactly. The money transfers are done in a way that appears as if they are within the rules to avoid detection by the RBI. And, all this is causing a government tax evasion.
+
+Bot: That's quite a significant complaint. Could you please provide me the regional office where this issue occurred for rendering a proper complaint against it? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: Yes, it's the 575 Sub-registrar office.
+
+Bot: Thanks for the additional details. I understand your situation and agree this may cause a tax evasion potentially harming the government's revenue. I'm noting your complaint against the money transfer process at Sub-registrar office 575. [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+Bot's final summary: 
+The user has brought to light an issue regarding property registration at Sub-registrar office 575 with the help of the site tnreginet.gov.in. The sub-registrar, in collusion with buyers and sellers, is allegedly executing money transfers in a clandestine manner outside the purview of the RBI. These transactions are seemingly being recorded as legitimate. The user suspects this activity is causing tax evasion, which needs to be addressed.
+
+Mandatory Information Collected:
+1. Regional office / Office: 575 Sub-registrar office
+
+Could you please verify if all the information is correct or if there's anything more you would like to add or change?
+
+Chat 7:
+User: Hi, I'd like to register a complaint about an individual in my vicinity committing financial malpractices. 
+
+Bot: I understand your concern and I'm here to assist. Could you please provide some more details about the kind of malpractice you're referring to? [Central Board of Direct Taxes (Income Tax)]
+
+User: To be specific, he is a trader and he has been making transactions in crores in cash rather than via bank. He doesn't pay tax as well.
+
+Bot: Thank you for specifying the issue. This being a tax evasion issue comes under the jurisdiction of Direct Taxes. Could you provide me with the name of this individual? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: Yes, the guy's name is Chekutty.
+
+Bot: Thank you for providing Chekutty's name. Does your complaint entail just the evasion of tax through cash payments or are there other fraudulent actions involved as well? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: If I'm not wrong, I believe he is into 'benami transactions' or transactions made under others� names to hide the identity of the actual beneficiary.
+
+Bot: I see, these activities come under 'Information about Benami Transaction'. That's very important information. Do you have any proof or documents to support these allegations? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: Yes, I have some documents that indicate purchases under other names that have been bought by Chekutty.
+
+Bot: That's very helpful, it will help pursue this matter efficiently. Lastly, could you please provide me with the regional office, or Income Tax office near your area? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: Yes, it is the Kuttippuram area, Malappuram district, in Kerala.
+
+Bot: Thank you for all the helpful input. Let me summarize the details:
+
+    Complaint:
+    Mr. Chekutty, a trader located in Kuttippuram, Malappuram district, Kerala is suspected of carrying out high volume cash transactions and evading tax. Documents indicating his involvement in benami transactions have been gathered as evidence.
+
+    Mandatory Information Collected:
+    Regional office/ Office: Kuttippuram, Malappuram district, Kerala.  
+
+Does everything look correct to you or would you like to make changes? [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+Chat 8:
+User: Hey, I have got a problem that needs to be addressed regarding my grievance
+
+Bot: I'm here to help! Could you please provide more details about your grievance? 
+
+User: I had reported a complaint, it was about some unfair economic transactions. But nothing much has happened.
+
+Bot: I understand your concern. Could you please let me know under which ministry did you report your complaint?
+
+User: It was under the Central Board of Direct Taxes, specifically in the Income Tax department.
+
+Bot: [Central Board of Direct Taxes (Income Tax)] Thank you for the details. Is there any more specific department, division or section where the issue pertains to?
+
+User: Yeah, I tried contacting the Direct Taxes department.
+
+Bot: [Central Board of Direct Taxes (Income Tax) -> Direct Taxes] Thanks, this helps. Your concern seems specific, was it related to a particular activity in Direct Taxes?
+
+User: Yes, it's about a Benami Transaction that I reported.
+
+Bot: [Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction] Got it, Benami Transaction is indeed a serious issue. To understand the situation better, could you provide the location where this issue is based - any specific regional office or office location?
+
+User: The case pertains to the Kolkata region.
+
+Bot: Thank you. Now it would be helpful if you could provide the reference number of your complaint.
+
+User: The reference is CPGRAMS Grievance No. : DOPAT/E/2022/18542 , Dated 22/11/2022.
+
+Bot: That helps. I see that the complaint was closed by Dr. Nidhi Mittal (Joint Director E-Services), Central Board of Direct Taxes (Income Tax) on Dated 09/01/2023. Could you elaborate more about the reason given for closing the case?
+
+User: They closed it saying the grievance isn't of Tax Evasion nature and should go to the concerned department. I disagreed because it wasn't just a simple Tax Evasion issue.
+
+Bot: I totally understand your frustration. Could you please provide more details about Uttam Kumar Kundu (PAN:AFYPK1781M) who seems to be at the core of your grievance?
+
+User: Uttam Kumar Kundu and his accomplices, Badal Shaw and his wife, hold property in 13A/27 Ariff Road, Kolkata: 700067, which I believe is acquired illegally.
+
+Bot: I understand the gravity of the issue. Now, could you please state what you wanted instead of the case closure?
+
+User: I want the case to be transferred to a competent authority for a holistic and detailed investigation into the facts and reality of the issue.
+
+Bot: I appreciate your cooperation. Based on our discussion, here is the summary:
+You have reported the issue of Benami Transaction under the ministry 'Central Board of Direct Taxes (Income Tax)' -> 'Direct Taxes' -> 'Information about Benami Transaction' pertaining to the Kolkata region. Your complaint reference is CPGRAMS Grievance No. : DOPAT/E/2022/18542. You disagreed with the closure of the case by Dr. Nidhi Mittal on 09/01/2023 and proposed a detailed investigation by a competent authority into Uttam Kumar Kundu (PAN:AFYPK1781M) and his accomplices' property holding at 13A/27 Ariff Road, Kolkata: 700067. 
+
+The collected information includes: 
+- Regional Office: Kolkata 
+- Reference: CPGRAMS Grievance No. : DOPAT/E/2022/18542
+- Details of Closure: Case closed by Dr. Nidhi Mittal (Joint Director E-Services) at Central Board of Direct Taxes (Income Tax) on 09/01/2023 stating the grievance is not of tax evasion nature
+- Issue Statement: Disagreement with case closure and demand for detailed investigation into Uttam Kumar Kundu and accomplices. 
+
+Can you please verify if the above information is correct? If anything is missing or any corrections needed, please let us know.
+
+Chat 9:
+User: Hello, I have a really distress issue to discuss and I need your help to fix this.
+
+Bot: I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.
+
+[Ministry: Central Board of Direct Taxes (Income Tax)]
+
+User: Oh, it's related to a matter of false property claims, illegal transactions and evasive methods tied to NRI property.
+
+Bot: I understand your concern. Seems like it involves taxes and illegal transactions. Let's gather more details. Please explain the situation in more details.
+
+[Ministry: Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: Yes, I am Smt Banu Krishnamurthy Dixit. An organization called Sri Gururaja Seva Sanga has wrongfully attempted to transfer regifted property of my non-resident son NRI - USA Sujaya B Dixit W/o., Late. Badarinath S Dixit, back in Davanagere District, Davanagere City-2. They are manipulating the situation and further attempting to link it to Laxmi Credit Co-Operative Society LTD., in Davanagere.
+
+Bot: This indeed is a serious matter. We can dig in this issue further. Who is the property being illegally transfered to?
+
+[Ministry: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: The property in question is being deceitfully linked to Shimoga linked branch hospital Nanjappa Hospital at the Door No.605, Maganur Basappa Road.
+
+Bot: I understand that this is an unpleasant situation for you and your family. I will definitely help you lodge this complaint. Can you please tell me at which regional office was this property registered?
+
+User: The property was registered at Davanagere Sub Registrar Office with Registered Gift S.R. No. 19505/2016-2017.
+
+Bot: Thank you for confirming the regional office. 
+
+[Final Summary: Complainant Smt Banu Krishnamurthy Dixit raises an issue against Sri Gururaja Seva Sanga for illegal transfer of the property of NRI - USA Sujaya B Dixit which has been donated to VinayKDixit in Davanagere District, and attempts to associate it with Laxmi Credit Co-Operative Society. This property is being falsely connected to Shimoga connected branch hospital Nanjappa Hospital.]
+
+[Mandatory fields:
+Regional office / Office: Davanagere Sub Registrar Office]
+
+Is this information correct? Let me know if any changes are needed.
+
+Chat 10:
+User: I want to file a complaint about illegal activities in my neighborhood. 
+
+Bot: I'm here to help, can you provide me more details on the type of illegal activities?
+[Ministry Chain: Central Board of Direct Taxes (Income Tax)]
+
+User: Sure, there's a family involved in illegal smuggling and accumulating black money, as they never pay any taxes.
+
+Bot: I understand your concern. Can you let me know their names and if you have any details that stand as proof? 
+[Ministry Chain: Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: Yes, the culprits are Mrs. Fulu Rani Das and her brother Mr. GOPAL DAS. Mrs. Fulu Rani Das has a PAN number: CJIPD4754M and Mr. Gopal Das, even though doesn't have a PAN number, he is reachable on 7059105350.
+
+Bot: This is certainly a serious concern. Could you also provide me with the address where they're conducting these activities?
+[Ministry Chain: Central Board of Direct Taxes (Income Tax) -> Direct Taxes]
+
+User: The detailed address where this is taking place is 49 Narkeldanga North Road, S.C.P Housing, Block - L, Flat No - 09, Ground Floor, Kolkata-700011. 
+
+Bot: Thank you for sharing this information. When you say they use 'cash only', could you elaborate? What could be the possible source of income?
+[Ministry Chain: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: Well, they're doing all these transactions in cash only to avoid any paper trails for tax purposes. They're running a smuggling business. 
+
+Bot: I see, thank you for that information. Let me consolidate all these details. Can you provide your nearest Income tax Office/ Regional office to forward this case?
+[Ministry Chain: Central Board of Direct Taxes (Income Tax) -> Direct Taxes -> Information about Benami Transaction]
+
+User: The closest office to me is the Kolkata Income Tax Office.
+
+Bot: Thank you for the information. Here is the summary of your complaint: Mrs. Fulu Rani Das (with PAN NO - CJIPD4754M) and Mr. Gopal Das (Contact number: 7059105350) are allegedly running an unregistered smuggling business in cash at 49 Narkeldanga North Road, S.C.P Housing, Block - L, Flat No - 09, Ground Floor, Kolkata-700011, resulting in the accumulation of black money due to tax evasion. This complaint will be forwarded to the Information about Benami Transaction division under Direct Taxes of the Central Board of Direct Taxes (Income Tax). Your nearest Income tax Office/ Regional office: Kolkata Income Tax Office. 
+Could you please verify if all the information is correct?
+
+User: Yes, everything mentioned is correct. Please proceed with the complaint. 
+
+Bot: Thank you for verifying. I'm submitting the complaint now. You have done an honorable service by reporting this. Our officials will take appropriate actions."
+"Ministry: Ministry of Power
+
+Chat 1:
+User: Hey, I have a complaint regarding my invoice.
+
+Bot: I'm sorry to hear that you're having trouble with your invoice. I'm here to help. Could you tell me specifically which ministry your complaint is associated with? 
+
+User: Yes, it is related to Ministry of Power.
+
+Bot [Ministry of Power]: Thank you for the information. Could you please clarify which department under the Ministry of Power this concerns? 
+
+User: It concerns the Ministry of Power Head Office.
+
+Bot [Ministry of Power -> Ministry of Power ( Head Office)]: I see. Going further, could you tell me whether your complaint involves administrative matters or a specific division?
+
+User: It is about some administrative matters.
+
+Bot [Ministry of Power -> Ministry of Power ( Head Office) -> Adm III Section  Administrative matters related to Ministry of Power]: Thanks for the clarification. Now, is your invoice related to administrative matter and required goods services related to Ministry of Power or specifically to a contract matter?
+
+User: It�s related to administrative matters and required goods and services.
+
+Bot [Ministry of Power -> Ministry of Power ( Head Office) -> Adm III Section  Administrative matters related to Ministry of Power -> 1 administrative matter and required goods and services related to MoP]: Got it. Now, could you please provide me with more details about the issue?
+
+User: Sure, the issue is about invoice no. AST/20-21/1293, dated 22-01-2021 for an amount of Rs 12633.44/-. We delivered the store to the consignee against the order but the payment is pending. We've been following up for a long time but not getting any help or response.
+
+Bot: I understand how frustrating this must be for you. Thanks for providing the necessary details. Let's proceed with the mandatory fields information.
+
+Bot: Could you confirm the source of the complaint: that is, whether it's through helpline, email, etc?
+
+User: Yes, this complaint comes via email.
+
+Bot: Thank you for the information. Could you further provide the date and time of complaint?
+
+User: The complaint was filed today at around 3:00 PM, IST.
+
+Bot: Alright. Just to confirm if I have all the details correctly. You have a complaint related to invoice no. AST/20-21/1293, dated 22-01-2021 for an amount of Rs 12633.44/-. The store delivery was done against the order but the payment is still pending. After multiple follow-ups, you haven't received any response. The complaint was made via email today at 3:00 PM IST. And it concern's Ministry of Power's 'Administrative matter and required goods and services related to Ministry of Power'. 
+
+Is this correct?
+
+User: Yes, that's correct. 
+
+Bot: Alright. Thank you for confirming. We have registered your complaint. A representative from the Ministry of Power will address your concern at the earliest. We understand your situation and truly appreciate your patience.
+
+Chat 2:
+User: Hi, I need help with an issue regarding my appointment.
+
+Bot: I'm here to assist you. Can you provide me more details about your issue?
+
+User: Yes, I've been expecting an appointment letter from the Assam Power Distribution Company Limited (APDCL). But I haven't received it yet.
+
+Bot: I see. Let me help you with that. [Ministry of Power]
+
+User: Great, I'm really frustrated about this, can you escalate it to the head office?
+
+Bot: Absolutely! I understand this is important. I will direct this to the appropriate department in the head office for immediate action. [Ministry of Power -> Ministry of Power ( Head Office)]
+
+Bot: To ensure I direct your complaint to the right place, could you clarify if this issue relates to an administrative matter or a contract matter?
+
+User: It's about my appointment letter. So, I guess it falls under administrative matters.
+
+Bot: Noted. We will forward your concern to the Adm III Section that handles administrative matters related to the Ministry of Power. [Ministry of Power -> Ministry of Power ( Head Office) -> Adm III Section  Administrative matters related to Ministry of Power]
+
+Bot: Now, I need a bit more information to help me narrow down the issue. Is this concerning goods and services that should have been included in your contract, or is it solely about your appointment letter not being received?
+
+User: Well, it's primarily about my appointment letter. I haven't received it yet.
+
+Bot: Thank you for the clarification. I'll ensure this is looked into by the correct department that handles administrative matters and required goods and services related to the Ministry of Power. [Ministry of Power -> Ministry of Power ( Head Office) -> Adm III Section  Administrative matters related to Ministry of Power ->  1 administrative matter and required goods and services related to MoP]
+
+Bot: I want to make sure I have gathered all the necessary details. Could you please provide me with your file numbers and the reference number?
+
+User: My file number is RTI/3580/2022-PMR, NO.2/2/2022-RTIC/E/20486, and the reference number is REC/RTI/Appeal/2021-22/06.
+
+Bot: Thank you for that information. I would now like to confirm few details before I complete your complaint:
+
+1) Your name
+2) Your email 
+3) Date of issue
+4) Preferred method of contact
+5) Location 
+
+Would you kindly provide these details?
+
+User: My name is Satyajit Bardhan, and you can reach me at satyajitb@example.com. This issue started in 2019. I prefer to be contacted via email, and my location is in Assam.
+
+Bot: Thank you for the details. I have now captured all required data. Here is the summary of issues:
+
+Issues:
+1) Pending appointment for Assam Power Distribution Company Limited (APDCL) 
+2) Have not received formal appointment letter 
+
+Mandatory Details:
+1) Name: Satyajit Bardhan
+2) Email: satyajitb@example.com
+3) File no: RTI/3580/2022-PMR, NO.2/2/2022-RTIC/E/20486
+4) Ref no: REC/RTI/Appeal/2021-22/06
+5) Date of issue: 2019
+6) Preference of contact: Email
+7) Location: Assam
+
+Can you please confirm if the provided details are correct? If not, kindly let me know what needs to be corrected or added.
+
+Chat 3:
+User: Hi, there is a frequent power cut in my area. This is really frustrating. Can you help me with this?
+
+Bot: I understand your concern. I am here to assist you. May I know which is your current location? [Ministry of Power]
+
+User: I'm staying at Nipun Saffron Valley which is near Shaheed Nagar Metro Station, Sahibabad, Ghaziabad U.P 201005
+
+Bot: Thanks for sharing the details. Are these power cuts happening during a specific time like day or night or is it random? [Ministry of Power]
+
+User: Unfortunately, it's happening both in day and night times.
+
+Bot: I am sorry to hear about this. I need a bit more information to address your issue. Could you please let me know if you have notified your local electricity department regarding this issue? [Ministry of Power -> Ministry of Power ( Head Office)]
+
+User: No, I haven't notified the local electricity department regarding these power cuts.
+
+Bot: Alright, we will escalate this issue to the concerned authority for you. Can I note down your name for reference? [Ministry of Power -> Ministry of Power ( Head Office) -> Adm I Section  Administrative matters of the CPSEs officers]
+
+User: Sure, my name is Pramod Kumar Agarwal.
+
+Bot: Thank you, Mr. Pramod Kumar Agarwal. Do you want this complaint to be addressed in regard to the inefficient services of the local electricity department? [Ministry of Power -> Ministry of Power ( Head Office) -> Adm I Section  Administrative matters of the CPSEs officers -> 1 Appointment 2 posting 3 transfer 4 promotion 5 Pensions]
+
+User: Yes, exactly. You got it right.
+
+Bot: Thank you for confirming. Now, if you don't mind could you share your email address and telephone number with me? We will notify you with any updates regarding your complaint.
+
+User: Sure. My email id is prinsec.pmo@gov.in and my contact number is 01123013040.
+
+Bot: Thank you for the details, Mr. Pramod Kumar Agarwal. Let me summarize your complaint:
+
+        Frequent power cuts are occurring day and night at Nipun Saffron Valley Near Shaheed Nagar Metro Station of Sahibabad, Ghaziabad U.P 201005. This complaint is against the inadequate services of the local electricity department and needs immediate attention. 
+
+Here are the mandatory details you provided:
+        
+        Contact Details:
+        
+        Name: Pramod Kumar Agarwal
+        Email: prinsec.pmo@gov.in
+        Contact Number: 01123013040
+
+Can you please verify if all the details are correct or any amendments are required? [Ministry of Power -> Ministry of Power ( Head Office) -> Adm I Section Administrative matters of the CPSEs officers -> 1 Appointment 2 posting 3 transfer 4 promotion 5 Pensions]
+
+User: Yes, all the details stated above are correct. Please proceed with this.
+
+Bot: Great! We will now forward your complaint to the relevant department. Thank you for reaching out to us. We will strive to resolve the issue at the earliest. Have a good day, Mr. Pramod Kumar Agarwal.
+
+Chat 4:
+User: Hi, I need some help here. My old complaint number DOURD/E/2022/21931 was closed recently, but I feel it was dismissed without a proper review. The response provided by the TNREB regulatory board seems to be not based on facts.
+
+Bot: I'm sorry to hear about the issue. As you have mentioned about the TNREB regulatory board, seems like your complaint is related to electricity services. Is it correct to say that your complaint is related to the Ministry of Power?[Ministry of Power]
+
+User: Yes, that's correct. 
+
+Bot: Thank you for the confirmation. To further route your complaint to the right place, please tell me if this is related to the Ministry of Power (Head Office) or to a specific division or section?[Ministry of Power -> Ministry of Power (Head Office)]
+
+User: It's indeed related to the Ministry of Power Head Office. 
+
+Bot: Understandable. Your complaint is involved with the Ministry of Power Head Office. Now could you please tell me whether the problem is related to policy matters or any other issues? [Ministry of Power -> Ministry of Power ( Head Office) -> Policy matters Section]
+
+User: Yes, you got it right, it's about policy matters.
+
+Bot: I see. Is it specifically concerning all the policy and planning matters related to MoP or the Capacity additional programme? [Ministry of Power -> Ministry of Power ( Head Office) -> Policy matters Section -> all the policy and planning matters related to MoP | Capacity additional programme]
+
+User: It's about all the policy and planning matters related to MoP.
+
+Bot: Acknowledged. I made a note of it. Now for us to help you further, we would need to collect some additional mandatory information. 
+
+Bot: Could I have your Full name, state and city of residence?
+
+User: Sure, My name is John Doe and I live in Chennai, Tamil Nadu.
+
+Bot: Thank you for the information, Mr. Doe. Just a few more details and we would be good to go. CWould you be able to provide your Contact number, Email ID and if there is any specific Preferred time to contact?
+
+User: Absolutely, You can reach me at 9999999999. My email is JohnDoe@email.com and Please feel free to contact me anytime between 10 am to 5 pm.
+
+Bot: Thank you for your time, Mr. Doe. I'm going to summarize the complaint details and personal information for you. Please confirm whether everything is correct or needs any changes. 
+
+1. Complaint about the closure of case DOURD/E/2022/21931 related to policy and planning matters of the Ministry of Power (Head office). Your concern is that the response by the TNREB regulatory board doesn't align with the true facts. You have made available the mail with evidences. 
+2. Your personal details are:
+   - Full Name: John Doe
+   - State: Tamil Nadu
+   - City: Chennai
+   - Contact number: 9999999999
+   - Email ID: JohnDoe@email.com
+   - Preferred time to contact: 10 am to 5 pm
+
+Is that correct, Mr. Doe?
+
+User: Yes, that's correct. Thank you for your assistance.
+
+Bot: You're welcome, Mr. Doe! I am glad I could help. We will escalate this issue to the concerned department and you will hear from us soon. Please feel free to reach out anytime if you have any more questions. Have a great day!
+"
+"Ministry:  Labour and Employment
+
+Chat 1:
+User: I need to raise a serious complaint regarding my previous employer. They have been exploiting me and I'm facing adverse consequences.
+
+Bot: I'm sorry to hear that you're facing such issues. Let's get started with the addressing this issue. Can you please specify about the exploiting issue?
+
+User: My manager and senior manager were exploiting me. They were forcing me to pay for company expenses from my own salary. They threatened to terminate my job if I refused. 
+
+Bot: That's a serious concern. Thank you for providing details about the exploitation. I think this falls under the ministry of Labour and Employment. [Ministry: Labour and Employment]. Can you specify how the management team reacted when you reported this issue?
+
+User: I reported this to the HR but they didn't support me. I also lodged a complaint with GrievanceNO: MOLBR/E/2022/26772 in the CPGRAMS PORTAL GRIEVANCE, but the state team couldn't handle it and the complaint was forwarded to the central labour team. 
+
+Bot: I understand your concern. This seems to be related to Service matter grievances related to O/o CLC(Officers/ staff working under CLC(C)). [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC(Officers/ staff working under CLC(C))]. Have you received any responses after the complaint was forwarded to the central team?
+
+User: Initially I got a response from the central labour team, however, they were not supportive. One officer even behaved very arrogantly to me. 
+
+Bot: I'm really sorry to hear about your experience. This appears to be a case for the Central Government. [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC(Officers/ staff working under CLC(C)) -> Central Government]. Now to help you better, may I know the name and address of your employer?
+
+User: My employer was FynTech Private Limited. The office is located at 712, Sector 45, Gurugram, Haryana.
+
+Bot: Thank you, that's helpful information. Could you also share the name of your State/Union territory, and exact location of your workplace?
+
+User: I worked in Haryana, Gurugram. The company address I gave you was the exact location of my workplace.
+
+Bot: Thank you. Now, could you please share the details of your last wages drawn?
+
+User: My last drawn salary was ?30,000 per month.
+
+Bot: Alright. Could you please tell me the region of your workplace. Is it northern region?
+
+User: Yes, it's in the Northern region.
+
+Bot: Thank you for providing these details. Let's now summarise the complaint:
+1. Ministry: [Labour and Employment -> Service matter grievances related to O/o CLC(Officers/ staff working under CLC(C)) -> Central Government]
+2. You have been exploited at work by your manager and the senior manager in your previous company, FynTech Private Limited in Gurugram, Haryana; who compelled you to pay for company expenses from your salary threatening job termination otherwise.
+3. When reported to HR, you got no support and even after escalating it further, you encountered unsupportive and arrogant behaviour.
+4. Your grievances involve lack of proper response, wrongful termination, and inability to withdraw your PF due to issues in paperwork from your employer's end. 
+
+Mandatory Information fields are:
+1. Employer Name and Address: FynTech Private Limited, 712, Sector 45, Gurugram, Haryana.
+2. State/UTs name: Haryana.
+3. Location of workplace: 712, Sector 45, Gurugram, Haryana.
+4. Details of last wages drawn: ?30,000/month.
+5. Region name: Northern Region.
+
+Please verify the above information. Do you wish to add or modify something?
+
+Chat 2:
+User: Hi, I'm facing a problem with my UAN. It has been disabled for a long time and I'm really upset. It has been 3-4 months now and still hasn't been resolved.
+
+Bot: I'm really sorry to hear about your issue. I assure you that I'm here to help. Just a friendly reminder that I need to collect a bit of information to help you best. Is your complaint related to your employment? [Ministry: Labour and Employment]
+
+User: Yes, it exactly has to do with my employment.
+
+Bot: Got it. To be more specific are your grievances related to the office of CLC? [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)]
+
+User: Yes, that's right.
+
+Bot: I understand. Regarding the nature of your complaint, is it related to the central government?  [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: Yes, you are correct.
+
+Bot: Thank you, Sir. Now that we have identified the related ministry, can I ask for your employer's name and address, as it's a mandatory detail that we need to include in our records?
+
+User: My employer is XYZ Company located at ABC Street, Punjab.
+
+Bot: Great! Now I require the name of the State or Union Territory you�re located in.
+
+User: I'm currently located in Punjab.
+
+Bot: Thank you for informing me. Next, I need to know more about the location of your actual workplace.
+
+User: My workplace is in Mohali, Punjab.
+
+Bot: Excellent! Now could you please tell me the details about your last drawn wages?
+
+User: My last salary was 30,000 per month. 
+
+Bot: Perfect! The final mandatory detail is the region name. Could you please let me know your region?
+
+User: I'm from the North region.
+
+Bot: Thank you, Sir. Let me verify the information to ensure I understand your complaint correctly:
+
+1) Your UAN is disabled and it's been 3-4 months that it hasn't been solved causing you distress. The grievance is linked with the office of CLC under the central government and related to your employment.
+[Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+For the mandatory fields, I have the following data:
+1. Employer's name and address: XYZ Company, ABC Street, Punjab
+2. State/UTs Name: Punjab
+3. Location of Workplace: Mohali, Punjab
+4. Details of Last Wage Drawn: 30,000 per month
+5. Region Name: North
+
+Is this information correct? Please let me know if you would like to make any changes.
+
+Chat 3:
+User: Hi, I need help regarding my job.
+Bot: Of course, I'm here to help! Can you please provide me with more details about the issue you're facing at your job?
+[Ministry: Labour and Employment]
+
+User: Yes, I had submitted an online application but it was wrongly closed saying it's transferred to Haryana labour commissioner. 
+Bot: I understand your concerns. Can you please tell me more about the nature of your complaint related to your job? Which governing body does your complaint fall under?
+[Ministry: Labour and Employment]
+
+User: Well, my complaint was against our chief employer CSC e-Governance Services India limited which is situated at New Delhi and comes under the jurisdiction of Chief Labour Commissioner's office.
+Bot: I see, thank you for the information. Since your issue relates to your employer who is under the Central government, it falls under Service matter grievances related to O/o CLC. Let's continue there.
+[Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)]
+
+User: Alright. My working area of the job is in Haryana, but the matter is not in the jurisdiction of state of Haryana as discrimination matter doesn't persist there.
+Bot: Noted. As the matter comes under the Central government, we will proceed accordingly.
+[Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+Bot: To assist you further, could you share the name and address of your employer, CSC E-Governance Services India Limited?
+[Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: Yes, they are located at Electronics Niketan, 6, CGO Complex, Lodhi Road, New Delhi -
+110003.
+Bot: Thank you. Now, could you please tell me details of your last wages drawn and the region you belong to?
+[Ministry: Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: My last drawn wages were around 50,000 Indian Rupees and I belong to the North region.
+Bot: Thank you for the information.
+
+To summarize, your complaint is regarding an issue with your application number MOLBR/E/2022/98152 dated 25-12-2022 that was wrongly processed. Your working area is in Haryana yet your complaint is against your employer CSC E-Governance Services India Limited, situated in Delhi and under the jurisdiction of the Chief Labour Commissioner rather than the State of Haryana. We noted this matter under Central Government jurisdiction, specifically 'Service matter grievances related to Officers/ staff working under CLC(C).'
+
+The mandatory fields filled are:
+1. Name and address of the Employer: CSC E-Governance Services India Limited, Electronics Niketan, 6, CGO Complex, Lodhi Road, New Delhi -110003.
+2. State/UTs Name: Haryana
+3. Location of Workplace: Haryana
+4. Details of last wages drawn: 50,000 INR
+5. Region Name: North
+
+Kindly verify all the provided information. If there are any changes, please let us know.
+
+Chat 4:
+User: Hi, I need to file a grievance against my former employer. 
+
+Bot: I'm sorry to hear you're experiencing some issues. May I assist you by registering your complaint? Could I please know the specific ministry or department this complaint should be directed to? [Ministry: Unknown]
+
+User: My previous complaint was directed towards Corporate Affairs but they told me to lodge one with Ministry of Labour & Employment.
+
+Bot: Noted. We'll forward your complaint to the Ministry of Labour & Employment. Could you clarify if your complaint pertains to service related issues or something else? [Ministry: Labour and Employment]
+
+User: Yes, it is about my service and due payments I haven't received from my employer.
+
+Bot: I see. To assist you better, might there be any particular office staff or higher authority in your workplace related to your grievance handling? Should we involve them as well? [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC]
+
+User: No, there's nobody in particular from the office that I know of.
+
+Bot: Alright. Your complaint falls under the jurisdiction of the Central Government. May I know the name of your employer and the specific workplace address? [Ministry: Labour and Employment -> Service matter grievances related to O/o CLC -> Central Government]
+
+User: The name of the company is Mention Company. The address is 123 Boulevard, New Delhi.
+
+Bot: Thank you for the details. May I also know in which State/Union Territory the workplace was located, and the last wage you received from the company? 
+
+User: The workplace was in the National Capital Territory of Delhi. The last wages I received were in June 2022, amounting to Rs 25,000. 
+
+Bot: Thanks for the info. Could you please let us know your last region of work within the National Capital Territory of Delhi?
+
+User: My region of work was in South Delhi. 
+
+Bot: I appreciate your cooperation. 
+
+Here's your complaint summary: 
+
+Dear Sir,
+Mention company cheat with every employer, first I lodged grievance with Corporate Affairs but they suggested to lodge with Ministry of Labour & Employment. I worked with this company from 6th October 2020 to 12th August 2022. Company not given any appointment letter, I worked offer letter basis. After resign they not given my 2 months salary, leave amount. Now they are telling as per appointment letter need to 2 months notice but not given any letter. Nothing any letter and not signed. This company this type of cheating with every employee. Kindly look into this matter and help to get my dues amount from this company.
+
+Mandatory Fields:
+
+1. Name and address of the employer: Mention Company, 123 Boulevard, New Delhi
+2. State/UTs name: National Capital Territory of Delhi
+3. Location of workplace: South Delhi
+4. Details of last wages drawn: June 2022, Rs 25,000
+5. Region name: South Delhi
+
+Could you please confirm if this information is correct?
+
+Chat 5:
+User: Hello, I have something to report.
+
+Bot: Hello there, I'm here to assist you. What's the issue you'd like to report? 
+
+User: It's about some non payment of wages issue.
+
+Bot: I'm really sorry to hear of this issue. It seems like this is related to labour and wages. Just to confirm, would this fall under the Labour and Employment Ministry?
+[Ministry flow: Labour and Employment]
+
+User: Yes, correct.
+
+Bot: Thank you for confirming. To address your complaint more efficiently, could you please let me know whether the issue is related to a private organization or a Central Government body? 
+[Ministry flow: Labour and Employment]
+
+User: It's a Central Government body.
+
+Bot: I see. Just to clarify further, is it concerning Service matter grievances related to Office of Chief Labour Commissioner (CLC) Officers/staff?
+[Ministry flow: Labour and Employment -> Central Government]
+
+User: Yes, that's right. 
+
+Bot: Thank you for the information. This helps us direct your complaint to the appropriate body within the Central Government.
+[Ministry flow: Labour and Employment -> Central Government -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) ]
+
+Bot: To process this complaint, I need some additional details. Firstly, could you provide me with the name and address of the employer?
+
+User: I can provide the name, but I don't have the complete address, the company name is XYZ Associates.
+
+Bot: It's alright. Please mention the name of the State/Union Territory and location of the workplace, as precisely as you know. 
+
+User: The state is Maharashtra and the location is Mumbai.
+
+Bot: Perfect, just a few more details. Could you provide me the details of last wages drawn by the migrant workers? 
+
+User: Yes, they were supposed to get around INR 15000 each per month.
+
+Bot: Thanks. Finally, could you please tell me the name of the region the labourers are from, if you are aware of it? 
+
+User: I think they are mostly from the North Eastern region.
+
+Bot: Thank you for all the information. To recap, here's the complete complaint and associated essential information:
+
+1. Migrant workers from XYZ Associates, located in Mumbai, Maharashtra have not received their due wages of INR 15000 each per month for the past three months. The workers, mostly from the North Eastern region are struggling due to non-payment. Despite previous attempts for resolution, payment has yet to be released.
+
+2. Ministry flow: Labour and Employment -> Central Government -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)
+
+3. Essential Information:
+   - Name and address of the employer: XYZ Associates, Mumbai, Maharashtra
+   - State/UTs name: Maharashtra
+   - Location of workplace: Mumbai
+   - Details of last wages drawn: INR 15000 per month per worker
+   - Region name: North Eastern region
+
+Could you please confirm if the information is correct, or suggest any modifications if needed?
+
+Chat 6:
+User: Hello, I have an issue and I need assistance.
+Bot: Certainly! I'm here to help. Could you please give me a brief about the issue you are facing?
+[Labour and Employment]
+
+User: It's regarding some workers from Odisha who were employed at Anav Constructions Pvt Ltd and they have been struggling to get their due payment.
+Bot: That seems a serious issue. Are these workers currently under any special authority or office?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)]
+
+User: They were under the contractor Debraj Das who has left without paying them.
+Bot: I see. I assumed these concerns are pertaining to a Central Government organization, can you confirm?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: Yes, that's correct. The grievances have even been forwarded to the office of the Dy. CLC(C), Chennai and Labour Commissioner, Govt. of Odisha.
+Bot: That clarifies the ministries involved. Now, can you please provide me with the exact location of the Anav Constructions Pvt Ltd?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: The location is Sriram Shankari in Chennai, Tamil Nadu.
+Bot: Thank you for the details. Can you please provide the state/UT name as well?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: It's Tamil Nadu.
+Bot: Noted. Can you also tell me about the last wages the workers received before the issue?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: Last they were given, was Rs. 14,000 before leaving their workplace, but their due payment of Rs. 3 Lakh 15 Thousand has not been paid yet.
+Bot: I understand, That's a large sum. Could you please specify the region where this issue has occurred?
+[Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).) -> Central Government]
+
+User: The region is Chennai.
+Bot: Alright, just to confirm the data obtained so far as part of the complaint:
+   
+    1. Name and address of the employer: Anav Constructions Pvt Ltd, Sriram Shankari, Chennai, Tamil Nadu.
+    2. State/UTs name: Tamil Nadu.
+    3. Location of workplace: Sriram Shankari, Chennai.
+    4. Details of last wages drawn: Rs 14000.
+    5. Region name: Chennai.
+    6. With humble submission I beg to state that 13 nos of migrant workers of Odisha were working at Anav Constructions Pvt Ltd
+
+Please verify if the information is correct. If there are any corrections or additions, kindly let me know.
+
+Chat 7:
+User: Hi, I need to lodge a complaint.
+
+Bot: Sure, I'd be glad to help. Could you please tell me which ministry does your complaint relate to?
+
+User: It's related to Labour and Employment.
+
+Bot: Noted. [Labour and Employment] Could you please clarify if it is regarding staff or administrative issues, laws, or something else?
+
+User: It's about the issues of our staff working under CLC (Central Labour Commissioner).
+
+Bot: I see. [Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)] Is the issue related to state government or central government staff?
+
+User: It's about Central Government staff.
+
+Bot: Understood. Complaint narrowed down to [Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)-> Central Government]. I need few more details to complete the process. May I know the name and address of your employer?
+
+User: Our employer is ICS Solutions Pvt Ltd, located at 12th floor, Lotus Towers, Andheri East, Mumbai.
+
+Bot: Thank you. Could you also let me know your State/UT name and the location of your workplace?
+
+User: Our workplace is in Maharashtra, in Mumbai city.
+
+Bot: Perfect. Now, can you provide details of the last wages drawn?
+
+User: I am not sure about the exact figure, but it was around 45000 INR per month.
+
+Bot: I got it. Thank you. For records, I also need the region name. Is it Mumbai?
+
+User: Yes, it's Mumbai.
+
+Bot: Great. Now onto the complaint details. Can you provide the facts regarding the complaint, and your grievance?
+
+User: The facts and grievances are mentioned in the complaint. Should i repeat them?
+
+Bot: No need to repeat them. I see them in the information you provided earlier. The last thing I need is the details for the initial grievance lodge to Dy. Labour Commissioner in Mumbai?
+
+User: The registration number is MOLBR/E/2022/91671.
+
+Bot: Thanks for providing all these details. Let's summarize now: 
+
+_You're filing a complaint related to 'Labour and Employment -> Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)-> Central Government' 
+
+_Your employer is ICS Solutions Pvt Ltd, located at 12th floor, Lotus Towers, Andheri East, Mumbai.
+
+_The State/UT name is Maharashtra and workplace is in Mumbai city.
+
+_The last wage you received was around 45000 INR/month.
+
+_The region name is Mumbai.
+
+_Grievance: No opportunity to show-cause was offered to us despite submission of Compliance Report within timeline.
+
+_And the Initial Grievance lodge to Dy. Labour Commissioner in Mumbai is registered with the number: MOLBR/E/2022/91671.
+
+Would you like to modify any information or should I submit this?
+
+
+Chat 8:
+User: I have a problem that needs resolving at my previous workplace.
+
+Bot: I'm sorry to hear that you're facing issues. Could you please detail the nature of the problem? [Labour and Employment]
+
+User: I was harassed at my previous job and I resigned because of that. But still, they have not released my salary for two months.
+
+Bot: That sounds like quite a stressful situation. I'm here to assist you. May I know the name and address of your previous employer? Also, could you specify which months were you not paid for? [Labour and Employment->Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)]
+
+User: My employer was P. D. Agrawal Infrastructure Ltd., Indore. And they haven't released my salary for June and July.
+
+Bot: I'm sorry to hear about your ordeal. To further assist you, could you please provide the details about the state and the location of your previous workplace? [Labour and Employment->Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)->Central Government]
+
+User: The state was Madhya Pradesh and the location of my workplace was Indore.
+
+Bot: Thank you for sharing this information. Could you provide your last wage details from this company? This will be helpful to process your complaint effectively. [Labour and Employment->Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)->Central Government]
+
+User: My last drawn salary was in May and that amounted to Rs. 50,000 excluding all other allowances.
+
+Bot: Noted that down. Lastly, could you also please confirm the regional name dealing with your case? [Labour and Employment->Service matter grievances related to O/o CLC (Officers/ staff working under CLC(C).)->Central Government]
+
+User: I am not sure about the region name.
+
+Bot: That's okay. You can simply share the name of your district. This will help me approximate the regional office that should be dealing with your case.
+
+User: I am from Cuttack, Odisha.
+
+Bot: Thank you for the information. Let's summarize it:
+
+Complaint: 
+You, Biswaranjan Rath from Cuttack, Odisha worked as a Tender Manager at P. D. Agrawal Infrastructure Ltd., Indore from 27.05.2022 to 07.07.2022. You resigned due to harassment and non-conducive work environment. Despite several resignations and follow-ups, you haven't received your salary for the months of June and July. You sought help from many officials and platforms but the issue hasn't been resolved yet.
+
+Mandatory Fields: 
+1. Employer: P. D. Agrawal Infrastructure Ltd., Indore
+2. State/UTs name: Madhya Pradesh
+3. Location of workplace: Indore
+4. Details of last wages drawn: Rs. 50,000 for the month of May (excluding other allowances)
+5. Region name: Cuttack, Odisha
+
+Kindly verify if the above information is correct or if it needs any modifications.
+
+Chat 9:
+User: Hi, I facing some issues related to my employment.
+
+Bot: I'm sorry to hear that you're experiencing issues. Could you please elaborate on the kind of problem you're facing? This will help me assist you in selecting the correct ministry. [Labour and Employment]
+
+User: Well, it's sort of a compliance issue. My employer has refused to help me with some important paperwork related to my employment details.
+
+Bot: I understand this could be frustrating. In order to help you better, could you tell me specifically which documents are causing trouble? Is it about attestation or submission of specific forms? [Labour and Employment -> Compliance related Issues]
+
+User: Yes, exactly. My employer is refusing to attested and forward my claim forms to the necessary authority.
+
+Bot: That seems like a serious concern. May I know what steps you have taken so far and what was your employer's response to this issue? [Labour and Employment -> Compliance related Issues -> Claim forms not being attested/forwarded/submitted by the employer]
+
+User: I've approached my employer multiple times, but he's always harsh towards me and refuses to do anything. He said I should take it up with the PF office in Patna, but shouldn't it be his job to sort this mess?
+
+Bot: I apologize for any discomfort. Before we proceed, could you please provide me with some additional information? 
+
+Kindly share with me:
+1. Name and Address of Establishment
+2. Your UAN No.
+3. PF Code/ PF Account No.
+
+User: The establishment's name is Tech Solutions, located at Patna, Bihar. My UAN No is BRPAT00109060000012761 and PF Code is PAT006.
+
+Bot: Thank you for sharing these details. In addition, can you please provide:
+1. Your PPO No.
+2. Scheme Certificate Number
+3. Details of PF Office
+
+User: I'm not sure about my PPO No. and Scheme Certificate Number, how do I find that? The PF office is in Rajendra Nagar, Patna.
+
+Bot: You can get your PPO No. and Scheme Certificate Number from the HR department of your company or from your PF account. If you are unable to get them now, we can proceed without it for now. Meanwhile, based on the information you have provided, I have created a complaint. 
+
+Final Summary of Complaint: Mukesh Kumar of Tech Solutions, Patna, is facing issues with the attestation and submission of claim forms by the employer. He has approached his employer multiple times but the employer is constantly avoiding the issue and suggesting him to resolve it with the PF office in Patna, which is causing discomfort.
+
+Mandatory information captured:
+1. Name and Address of Establishment: Tech Solutions, Patna, Bihar
+2. UAN No.: BRPAT00109060000012761
+3. PF Code/ PF Account No.: PAT006
+4. PPO No.: To be collected
+5. Scheme Certificate Number: To be collected
+6. PF Office: Rajendra Nagar, Patna
+
+Could you please confirm if the above information is correct and whether you'd like to add or edit something?
+[Labour and Employment -> Compliance related Issues -> Claim forms not being attested/forwarded/submitted by the employer]
+
+Chat 10:
+User: Hi, I seem to be facing an issue related to my EPF. Can you help?
+Bot: Absolutely, I am here to assist you. Could you kindly provide more specifics about the issue you are facing? [Labour and Employment]
+
+User: My employer has not attested my EPF joint declaration form.
+Bot: I'm sorry to hear that you're facing this difficulty. Let's delve deeper into which department might need to be aware of this. Would you consider this to be more of a compliance-related issue? [Labour and Employment -> Compliance related Issues]
+
+User: Yes, it's a compliance issue. My employer isn't submitting the attested form to the PF office and I'm stuck because of this.
+Bot: I understand your concern. It sounds like the employer is not attesting/forwarding/submitting the claim forms, which is indeed a compliance issue. [Labour and Employment -> Compliance related Issues -> Claim forms not being attested/forwarded/submitted by employer]
+
+Now to get this issue addressed, I will need some mandatory information. Can we proceed?
+
+User: Sure. What information do you need?
+
+Bot: Let's start with the basics. Can you please tell me the Name and Address of your establishment?
+
+User: It's Krishna Construction in Visakhapatnam.
+
+Bot: Perfect! Let's move on. Can you confirm your UAN No?
+
+User: Yes, it's 100902080775.
+
+Bot: Great, that was helpful. Can you please provide me with your PF Code/PF Account No?
+
+User: Yes, my PF Account No is APHYD/59634/28180.
+
+Bot: Thanks for that data. Suppose you have it, could you possibly share your PPO No?
+
+User: I am not sure about the PPO no. how about we move forward?
+
+Bot: No problem at all! We can gather that later. Next, Could you possibly share your Scheme Certificate Number?
+
+User: I don't have that either.
+
+Bot: Alright, no worries. Lastly, Could you share the details of your PF Office?
+
+User: The PF office is in Hyderabad.
+
+Bot: Great, thanks a lot for all your help. Here is the complaint as I understand it:
+
+This complaint is concerning the attestation and forwarding of claim forms by Krishna Construction, Visakhapatnam. Despite repeated attempts, the forms have been neither attested by the employer nor submitted to the PF office. This failure to follow protocol has led to loss of time and unnecessary hassle.
+
+Mandatory field Metadata for our records:
+- Name and Address of Establishment: Krishna Construction, Visakhapatnam
+- UAN No: 100902080775
+- PF Code/ PF Account No: APHYD/59634/28180
+- PF Office: Hyderabad
+
+Can you verify if the details provided are correct as per your knowledge?
+
+User: Yes, all the details are correct.
+
+Bot: Thank you for confirming the details. We will be reporting this issue to the concerned ministry and will follow up shortly. Please feel free to reach out if you have any further queries."
+"Ministry: Ministry of Corporate Affairs
+
+Chat 1:
+User: Hello, I need help regarding the complaint I have with respect to the MCA portal.
+
+Bot: Of course, I understand you're facing an issue and I'm here to assist you. Could you please tell me more about the problem you are encountering regarding the MCA portal? [Ministry of Corporate Affairs]
+
+User: My client Mrs. Bhoomi Prakash Chandwani, with DIN 08839249 has filed the DIR 3 KYC form on 11/10/2022. But, the DIN got deactivated stating the reason as non-filing. Also, she was told to pay a penalty of Rs 5000 even though she filed it before the due date of 15/10/2022. 
+
+Bot: I see, this seems to be a matter relating to the technicalities concerning the MCA-21 system. Are there any other added details you can provide me regarding the issue? [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance)]
+
+User: Yes, we lodged the grievance at the MCA portal three times regarding this. But, each time we received a standard reply stating the details are incomplete to resolve, and the ticket gets closed. And, when we contacted the MCA seva Kendra, they told us to pay the fees as they lacked the power to resolve it.
+
+Bot: I understand your concerns. This seems to involve the administration and implementation of the MCA-21 system process. Could you specify the client's grievance ticket number and the Service Request Number (SRN), if any? This will help me track your complaint. [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation of MCA-21 system]
+
+User: Unfortunately, I do not have those details at the moment, I will find them and provide you soon.
+
+Bot: Sure, take your time. The Ticket No and the SRN help on a great deal in addressing the challenge you're facing more effectively.
+
+[After some time]
+
+User: I found the details. The Ticket No is 4809321 and the SRN is N19038272.
+
+Bot: Thank you for providing the necessary details. Before we proceed, I would like to summarize the complaint: Your client Mrs. Bhoomi Prakash Chandwani, with DIN 08839249 has filed the DIR 3 KYC form on 11/10/2022 before the extended due date. However, the DIN has been deactivated due to alleged non-filing of the said form. Despite lodging multiple complaints (Ticket No: 4809321, SRN: N19038272) regarding this matter, you have not received satisfactory resolution. Moreover, there has been a demand for a penalty payment, which you contest, given the timing of the form submission. Can you confirm if this is correct?
+
+User: Yes, That's correct. nothing is missed.
+
+Bot: Thank you for confirming. This will be escalated to the concerned authority under administration and implementation of MCA-21 system of the Ministry of Corporate Affairs. Please note your complaint and mandatory fields: 
+   1. Complaint: The wrongful deactivation of DIN 08839249 and unfair demand of penalty.
+   2. Ticket No.: 4809321
+   3. SRN: N19038272
+Do you want to add or modify anything else in this?
+
+User: No, Everything seems properly captured. 
+
+Bot: Thank you for confirmation. We will update you on progress.
+
+Chat 2:
+User: Hi, I need help with a form that we've filed.
+
+Bot: Of course, I'm here to help. Could you please tell me more about the issue?
+
+[Ministry of Corporate Affairs]
+
+User: Yes, we had filed Form SH 8 recently and made payment for the challan via SRN: F42280438. However, it's now marked for resubmission.
+
+Bot: Okay, let me gather some more details. In which system or platform did you face this issue? 
+
+[Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance)]
+
+User: We got this issue on MCA-21.
+
+Bot: Got it! Could you please tell me more about the specific process related to this issue, further down the system?
+
+[Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation of MCA-21 system]
+
+User: The form was marked for resubmission with a remark stating ""Letter of offer and buy back details of last 3 years should be attached"". However, while preparing the form for resubmission, we encountered an error that ""Form SH 8 will not be available from 7th January 2023 12.00 AM till 22nd January 2023 11.59 PM"". I need help resolving this issue.
+
+Bot: I see. To take this matter further, I need your ticket No, could you please provide it?
+
+User: Our Ticket No. is 45321.
+
+Bot: Thank you. So if I understand the situation correctly, your complaint is regarding a technical issue faced while resubmitting the Form SH 8 on the MCA-21 platform, despite having already filed it and paid via SRN: F42280438. You were asked to attach a ""Letter of offer and buy back details of last 3 years"" and were informed that the form has to be resubmitted by 19/01/2023. However, the system displayed that the form cannot be resubmitted from 7th January 2023 till 22nd January 2023. 
+
+[Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation of MCA-21 system]
+
+Now, let's ensure I have all the mandatory details:
+1. Ticket No: 45321
+2. SRN: F42280438
+3. we filed Form SH 8 and challan is also paid vide SRN.
+
+Does the information sound correct to you?
+
+User: Yes, that is correct.
+
+Bot: Great! I have carefully noted down your complaint and we will proceed towards the resolution as soon as possible. Thank you for providing all the necessary details. Your patience is highly appreciated.
+
+Chat 3:
+User: Hi there, I've encountered an issue and I need help.
+
+Bot: Sure, I'm here to help. Could you please elaborate more on what the issue is about?
+
+User: Sure, we have got a certificate of registration charge, but it has some problems. 
+
+Bot: I see. I can assist you with this. In order to help you better, could you please tell me if your issue is related to any technical aspect of the services we offer or is it something else?
+
+User: Yeah, it's technical.
+
+[Ministry of Corporate Affairs]
+
+Bot: Thank you for the information. Could you please indicate if this issue is related to the eGovernance system, the MCA-21?
+
+User: Yeah, it's related to MCA-21.
+
+[Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance)]
+
+Bot: Thank you for your patience. Could your issue be related to the administration and implementation of the MCA-21 system?
+
+User: Exactly! 
+
+[Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation  of MCA-21 system]
+
+Bot: Perfect. To further assist you, could you please provide more details about the problem you encounter with your certificate of registration charge?
+
+User: Sure, in the certificate the CIN of the company is showing as null and in index of charge it's not showing. 
+
+Bot: That is indeed concerning. We will look into this issue for you. To do so, could I have the Service Request Number (SRN) please?
+
+User: Oh! I should have mentioned that. The SRN is AA0483890.
+
+Bot: Thank you. In order to track your request, could you please provide me with the ticket number?
+
+User: Sorry, but I don't have the ticket number.
+
+Bot: That's fine. I will generate a ticket for you momentarily.
+
+[Generating ticket...]
+[Ticket No.: 12345]
+
+Bot: Your ticket number is 12345. Thank you for providing the necessary information. To summarize:
+
+Complaint: The CIN of the company is showing as null in the certificate of registration charge under SRN No AA0483890 and it's not showing in the index of charges. 
+Complaint mapped to: Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation  of MCA-21 system.
+Mandatory Details: 
+Ticket No.: 12345
+SRN: AA0483890
+
+Could you please verify if the information is correct or if any changes are needed?
+
+User: Everything looks correct. Please go ahead. 
+
+Bot: Thank you. Your complaint has been registered. We will work on resolving it as soon as possible.
+
+Chat 4:
+User: Hi, I need help regarding a ticket we raised about charge modification issues.
+
+Bot: Hello, I'm here to assist you. Could you specify whether this is a technical issue or a policy matter related to the company? [Ministry of Corporate Affairs]
+
+User: It's a technical issue, we are having trouble with an e-form.
+
+Bot: I see. Can you provide more insight into what type of e-form you are experiencing troubles with? [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance)]
+
+User: It's the E-form Chg 1. We are having an issue with prefilling the Charge ID for modification.
+
+Bot: Understood. This is related to MCA-21 system administration. Could you let me know what�s causing difficulties while prefilling Charge ID for modification? [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation  of MCA-21 system]
+
+User: The system is showing us an error. We are unable to prefill the Charge ID 100562590 for modifications on this form.
+
+Bot: I'm sorry for the inconvenience. I believe we might be able to resolve the issue. To effectively track your problem, can you provide the ticket number you received when you first reported this issue?
+
+User: Yes, the ticket number is FO_20230109399223.
+
+Bot: Thank you. One more detail we need is your SRN. Could you provide that?
+
+User: Sorry, I don't have that information with me right now.
+
+Bot: No worries. Whenever you get it, do let us know. I will summarize the complaint for you: ""Technical issue related to prefilling the Charge ID 100562590 in E-form Chg 1 for modification under the administration of MCA-21 system. Additionally, a screenshot error attached and late fees for filing the e-forms is Rs. 5 Lakhs"". The mandatory details captured are: Ticket No - FO_20230109399223. Please confirm if this information is correct and if you have any other details to provide.
+
+User: Yes, that covers everything. I'll provide the SRN as soon as I get it. Thanks for your help.
+
+Bot: You're welcome! Do not hesitate to reach out if you have the SRN or any other issues. I'm here to assist you. Have a good day!
+
+Chat 5:
+User: Hello. I'm having a bit of a problem. I've got this client, you see, and there's been some miscommunication with her filing.
+
+Bot: I'm sorry to hear that you're facing this issue. I'd be happy to help. Could you please tell me more about the nature of this issue?
+
+User: It's related to the Ministry of Corporate Affairs. My client Mrs. Bhoomi Prakash Chandwani, having DIN 08839249 filed her DIR 3 KYC form before the due date, but it's showing that she didn't, and that she now has to pay a penalty.
+
+Bot: I understand the situation better now. So, this issue comes under the Ministry of Corporate Affairs. But to narrow down and forward this to the correct department, could you tell me which system was used to file the DIR 3 KYC form? Was it done via MCA-21? [Ministry of Corporate Affairs]
+
+User: Yes, it was done through the MCA-21 system. 
+
+Bot: Thank you for confirming. So, your issue lies within the 'Technical Matters- MCA-21 (eGovernance)' department under the 'Ministry of Corporate Affairs'. To forward this complaint to them, is it related to some administration and implementation aspect of the MCA-21 system? [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance)]
+
+User: Yes, exactly. The system has unfairly charged a penalty. I believe there's an issue with its implementation.
+
+Bot: Alright. So, I've narrowed down the department to 'administration and implementation  of MCA-21 system' under 'Technical Matters- MCA-21 (eGovernance)' which is part of the 'Ministry of Corporate Affairs'. [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation  of MCA-21 system]
+To lodge this complaint, I would need some additional mandatory information. Could you provide me with the Ticket No.?
+
+User: We've lodged the grievance three times so there are three ticket numbers: 781243, 781255, and 781269. 
+
+Bot: Thank you for providing the ticket numbers. Could you also share the SRN (Service Request Number) of your client's DIR-3 KYC filing?
+
+User: Unfortunately, I do not have the SRN number at hand. I will have to fetch it.
+
+Bot: No problem, please take your time. Once you have it, kindly share it with us.
+
+User:[After a while]  I got the SRN, it is S123456789.
+
+Bot: Thank you for providing that information. To summarize - Mrs. Bhoomi Prakash Chandwani with DIN 08839249 has been unjustly penalized for what the MCA-21 system perceives as a late KYC DIR-3 form filing, despite her having filed it before the due date. This grievance involves the 'administration and implementation  of MCA-21 system' department under the Ministry of Corporate Affairs. Ticket numbers are 781243, 781255, and 781269 and the SRN is S123456789.
+ Could you please confirm the details before I lodge the complaint? [Ministry of Corporate Affairs -> Technical Matters- MCA-21 (eGovernance) -> administration and implementation  of MCA-21 system]
+
+User: Yes, everything you've stated is correct. Please proceed with lodging the complaint. 
+
+Bot: Great! I have noted all the details and I will submit the complaint. Your feedback is important to us. If you face any more issues or need any more assistance, free free to reach out to us. Have a good day!
+"
